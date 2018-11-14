@@ -1,9 +1,13 @@
 package main
 
+import (
+	"fmt"
+)
+
 func main() {
 
 	input := "abcdef"
-	println("%d", input)
+	fmt.Printf("%s", input)
 	permuation("", input)
 	println("..COMPLETED..")
 
