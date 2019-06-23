@@ -1,8 +1,5 @@
 language: go
 
 go:
-  - 111
+  - 1.11
   - tip
-
-services:
-  - redis-server
